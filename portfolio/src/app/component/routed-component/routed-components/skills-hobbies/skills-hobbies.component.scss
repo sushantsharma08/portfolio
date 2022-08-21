@@ -23,6 +23,7 @@ li{
     min-width: 440px;
     min-height: 250px;
     background-color: rgba(28, 32, 83, 0.027);
+
 }
 .skills::before{
     content: " ";
@@ -53,6 +54,7 @@ li{
     box-shadow: 0 15px 15px rgba(0,0,0,0.5);
     backdrop-filter:blur(6px);
     opacity: 0.8;
+    border: 1px solid rgba(0, 0, 0, 0.137);
 }
 .template:hover{
     opacity: 1;
