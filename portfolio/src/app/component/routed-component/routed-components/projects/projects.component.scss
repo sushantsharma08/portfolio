@@ -1,0 +1,71 @@
+
+section.back{
+    // position: 
+    // z-index: 0;s
+    position: absolute;;
+
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.555), rgba(64, 64, 143, 0.555),rgba(136, 74, 136, 0.555) );
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+section .row{
+    position: relative;
+    top: -400px;
+    left: -500px;
+    width: 160%;
+    display: flex;
+    padding: 10px 0;
+    margin: 2px;
+    white-space: nowrap;
+    font-size: 64px;
+    // transform: rotate(-30deg);
+}
+i{
+    color: rgba(34, 28, 28, 0.116);
+    transition: 1s;
+    padding: 0 10px;
+    user-select: none;
+    cursor: default;
+}
+i:hover{
+    transition: 0s;
+    color: #0f0;
+    text-shadow: 0 0 120px #0f0;
+}
+section .row div{
+    animation: animate1 80s linear infinite;
+   animation-delay: -80s;
+}
+section .row div:nth-child(2){
+    animation: animate2 80s linear infinite;
+    animation-delay: -40s;
+}
+@keyframes animate1
+{
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+
+    }
+}
+ @keyframes animate2 {
+    0%
+    {
+        transform: translateX(0%);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+
+    }
+}
+.card{
+    z-index: 10;
+    backdrop-filter: blur(2px);
+}
