@@ -1,9 +1,14 @@
-
+.background{
+    // height: 100vh;
+    position: relative;
+}
 section.back{
-    // position: 
+    border: 2px solid red;
+    position: fixed;
+    top: 0px;
+    // bottom: 0px;
     // z-index: 0;s
-    position: absolute;;
-
+    // position: relative;
     width: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.555), rgba(64, 64, 143, 0.555),rgba(136, 74, 136, 0.555) );
     display: flex;
