@@ -3,9 +3,10 @@
     position: relative;
 }
 section.back{
-    border: 2px solid red;
+    // border: 2px solid red;
     position: fixed;
     top: 0px;
+    bottom: 0px;
     // bottom: 0px;
     // z-index: 0;s
     // position: relative;
@@ -13,7 +14,7 @@ section.back{
     background: linear-gradient( rgba(0, 0, 0, 0.555), rgba(64, 64, 143, 0.555),rgba(136, 74, 136, 0.555) );
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    // overflow: hidden;
 }
 section .row{
     position: relative;
@@ -35,9 +36,10 @@ i{
     cursor: default;
 }
 i:hover{
+    content: "hello";
     transition: 0s;
-    color: #0f0;
-    text-shadow: 0 0 120px #0f0;
+    color: rgba(4, 88, 136, 0.411);
+    text-shadow: 0 0 120px rgba(0, 255, 0, 0.425);
 }
 section .row div{
     animation: animate1 80s linear infinite;
