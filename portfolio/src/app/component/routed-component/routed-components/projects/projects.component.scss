@@ -11,8 +11,9 @@ section.back{
     // z-index: 0;s
     // position: relative;
     width: 100%;
-    // background: linear-gradient( rgba(0, 0, 0, 0.555), rgba(64, 64, 143, 0.555),rgba(136, 74, 136, 0.555) );
-    background: linear-gradient( rgba(70, 70, 70, 0.6), rgba(64, 64, 143, 0.700),rgba(136, 74, 136, 0.774) );    display: flex;
+    background: linear-gradient(-20deg, #ff9a9e , #fecfef );
+    // background: linear-gradient( rgba(70, 70, 70, 0.6), rgba(64, 64, 143, 0.700),rgba(136, 74, 136, 0.774) );  
+     display: flex;
     flex-direction: column;
     // overflow: hidden;
 }
@@ -38,8 +39,8 @@ i{
 i:hover{
     content: "hello";
     transition: 0s;
-    color: rgba(4, 88, 136, 0.411);
-    text-shadow: 0 0 120px rgba(0, 255, 0, 0.425);
+    color: rgba(194, 0, 107, 0.432);
+    text-shadow: 0 0 120px rgba(233, 84, 166, 0.541);
 }
 section .row div{
     animation: animate1 80s linear infinite;
