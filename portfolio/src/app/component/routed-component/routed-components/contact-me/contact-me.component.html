@@ -16,16 +16,17 @@
                 <div class="p-2 w-1/2">
                     <div class="relative">
                         <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-                        <input type="text" id="name" name="name" title="please enter your Name" pattern="[a-zA-Z]{15,}" required
+                        <input type="text" id="name" name="name" title="please enter your Name" pattern="[a-z A-Z]{3,}" required
                             class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                     </div>
                 </div>
                 <div class="p-2 w-1/2">
                     <div class="relative">
-                        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                        <input type="email" id="email" name="email"
-                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        <label  for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                        <input  title="please Enter a Valid email" pattern="[a-zA-Z0-9._-+]+@[A-Za-z0-9]+\.[a,z]{2,}" type="email" id="email" name="email"
+                          required  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" >
                     </div>
+                    {{email}}
                 </div>
                 <div class="p-2 w-full">
                     <div class="relative">
