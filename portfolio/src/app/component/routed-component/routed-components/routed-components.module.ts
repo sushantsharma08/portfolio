@@ -6,6 +6,8 @@ import { EducationalQualificationsComponent } from './educational-qualifications
 import { SkillsHobbiesComponent } from './skills-hobbies/skills-hobbies.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+
 
 const routes : Routes = [
   {
@@ -36,6 +38,7 @@ const routes : Routes = [
   ],
   imports: [
     CommonModule,
+    FormsModule,ReactiveFormsModule,
     RouterModule.forChild(routes)
   ],
   exports: [RouterModule]
