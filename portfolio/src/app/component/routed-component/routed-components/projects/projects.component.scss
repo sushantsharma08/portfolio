@@ -11,7 +11,7 @@ section.back{
     // z-index: 0;s
     // position: relative;
     width: 100%;
-    background: linear-gradient(-20deg, #ff9a9e , #fecfef );
+    background: linear-gradient(60deg,#30475ea9, #025ebb56 );
     // background: linear-gradient( rgba(70, 70, 70, 0.6), rgba(64, 64, 143, 0.700),rgba(136, 74, 136, 0.774) );  
      display: flex;
     flex-direction: column;
@@ -30,17 +30,18 @@ section .row{
     transform: rotate(-30deg);
 }
 i{
-    color: rgba(82, 82, 82, 0.062);
-    transition: 1s;
+    color: rgba(46, 85, 88, 0.062);
+    // font-size: large;
+    transition: 3s;
     padding: 0 10px;
     user-select: none;
     cursor: default;
 }
 i:hover{
-    content: "hello";
+    content: "";
     transition: 0s;
-    color: rgba(194, 0, 107, 0.432);
-    text-shadow: 0 0 120px rgba(233, 84, 166, 0.541);
+    color: rgba(80, 133, 155, 0.685);
+    text-shadow: 0 0 120px rgb(75, 192, 163);
 }
 section .row div{
     animation: animate1 80s linear infinite;
@@ -52,7 +53,7 @@ section .row div:nth-child(2){
 }
 section .row div:nth-child(3){
     animation: animate2 80s linear infinite;
-    animation-delay: -40s;
+    animation-delay: -80s;
 }
 section .row div:nth-child(4){
     animation: animate2 80s linear infinite;
