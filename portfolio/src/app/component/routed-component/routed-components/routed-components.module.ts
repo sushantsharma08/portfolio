@@ -7,7 +7,7 @@ import { SkillsHobbiesComponent } from './skills-hobbies/skills-hobbies.componen
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 
 const routes : Routes = [
   {
@@ -33,11 +33,11 @@ const routes : Routes = [
 
 @NgModule({
   declarations: [
-    ProjectsComponent,
     ContactMeComponent
   ],
   imports: [
     CommonModule,
+    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forChild(routes)

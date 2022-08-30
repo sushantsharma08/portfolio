@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup,FormBuilder,Validators } from '@angular/forms';
+import { FormBuilder,Validators } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+// import { FormGroup } from '@angular/forms';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-contact-me',
   templateUrl: './contact-me.component.html',
+  // templateUrl: './contact-me.component.html',
   styleUrls: ['./contact-me.component.scss']
 })
 
@@ -12,10 +16,11 @@ export class ContactMeComponent implements OnInit {
   submitted=true;
   email: any;
   submitMessage:any;
-  contactForm!: FormGroup;
-
+  // contactForm!: FormGroup;
+  contactForm: any;
   constructor(
     private formBuilder:FormBuilder,
+    private httpClient: HttpClient,
     // private httpClient:HttpClient
     ) { 
   }
@@ -58,6 +63,18 @@ export class ContactMeComponent implements OnInit {
       this.submitted=false;
     }, 5000);
 
+
+    this.httpClient
+    .post(
+      'https://contactpage-f716f-default-rtdb.firebaseio.com/',
+      this.contactForm.value
+    )
+    .subscribe(
+      (response) => {
+        console.log('response', response);
+        this.contactForm.reset();
+      }
+    );
   }
 
   onSubmit(){
