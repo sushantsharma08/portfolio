@@ -66,10 +66,9 @@ export class ContactMeComponent implements OnInit {
 
     this.httpClient
     .post(
-      'https://contactpage-f716f-default-rtdb.firebaseio.com/jsondata',
+      'https://contactpage-f716f-default-rtdb.firebaseio.com/user.json',
       this.contactForm.value
-    )
-    .subscribe(
+    ).subscribe(
       (response) => {
         console.log('response', response);
         // this.contactForm.reset();
