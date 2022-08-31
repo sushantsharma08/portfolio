@@ -1,0 +1,22 @@
+.contact::before{
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 0, 0, 0.253),rgba(255, 0, 255, 0.438));
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 20%);
+    z-index: -1;
+}
+.contact::after{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2195f38c,#e91e627a);
+    clip-path: polygon( 50% 100%, 0% 20%,50% 20%, 100% 20%);
+    z-index: -1;
+}
