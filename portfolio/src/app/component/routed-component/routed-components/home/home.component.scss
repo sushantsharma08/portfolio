@@ -1,0 +1,150 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+span.changingText::before {
+    content: "A ";
+    animation: animate infinite 10s;
+    padding-left: 10px;
+    transition: all 2s ease-in-out;
+}
+span.changingText2::before {
+    content: "Designer,";
+    animation: animate2 infinite 10s;
+    padding-left: 10px;
+    transition:1s ease-in-out;
+}
+
+@keyframes animate {
+
+    3% {
+        content: "I";
+    }
+    4%{
+        content: "I a";
+    }
+    8%{
+        content: "I am";
+    }
+    43%{
+        content: "I am";
+    }
+    46% {
+        content: "A   ";
+    }
+    75% {
+        content: "A   ";
+    }
+    90% {
+        content: "A   ";
+    }
+}
+
+@keyframes animate2 {
+
+
+    10%{
+        content: "S";
+    }
+    12%{
+        content: "Sus ";
+    }
+    14%{
+        content: "Sush";
+    }
+    16%{
+        content: "Susha";
+    }
+    19%{
+        content: "Sushan";
+    }
+    23%{
+        content: "Sushant";
+    }
+    27%{
+        content: "Sushant S";
+    }
+    31%{
+        content: "Sushant Sha";
+    }
+    35%{
+        content: "Sushant Shar";
+    }
+    39%{
+        content: "Sushant Sharm";
+    }
+    43%{
+        content: "Sushant Sharma";
+    }
+    50% {
+        content: " w";
+    }
+    51% {
+        content: " we";
+    }
+    52% {
+        content: " web";
+    }
+    53% {
+        content: " web D";
+    }
+    55% {
+        content: " web De";
+    }
+    58% {
+        content: " web Dev";
+    }
+    60% {
+        content: " web Devl";
+    }
+    63% {
+        content: " web Devlo";
+    }
+    66% {
+        content: " web Devlop";
+    }
+    70% {
+        content: " web Devlope";
+    }
+    73% {
+        content: " web Devloper,";
+    }
+    77% {
+        content: "D,";
+    }
+    78% {
+        content: "De";
+    }
+    79% {
+        content: "Des";
+    }
+    80% {
+        content: "Desi,";
+    }
+    81% {
+        content: "Desig";
+    }
+    82% {
+        content: "Design";
+    }
+    83% {
+        content: "Designe";
+    }
+    84% {
+        content: "Designe";
+    }
+    85% {
+        content: "Designer,";
+    }
+    90%{
+        content: "Designer,";
+    }
+}
+@media only screen and (min-width: 600px) {
+    .imgDiv{
+        // float: right;
+        margin-left: 150px;
+    }
+  }
