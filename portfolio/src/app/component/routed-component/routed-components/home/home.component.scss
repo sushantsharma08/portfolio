@@ -29,16 +29,16 @@ h1 {
 }
 
 span.changingText::before {
-    content: "A ";
+    content: "";
     animation: animate infinite 10s;
-    padding-left: 10px;
+    padding-left: 7px;
     transition: all 2s ease-in-out;
 }
 span.changingText2::before {
-    content: "Designer,";
+    content: "";
     animation: animate2 infinite 10s;
-    padding-left: 10px;
-    transition:1s ease-in-out;
+    padding-left: 7px;
+    transition:all 2s ease-in-out;
 }
 
 @keyframes animate {
@@ -132,7 +132,7 @@ span.changingText2::before {
     70% {
         content: " web Devlope";
     }
-    73% {
+    72% {
         content: " web Devloper,";
     }
     77% {
