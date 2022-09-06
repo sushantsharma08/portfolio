@@ -5,8 +5,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.37),rgba(2, 0, 2, 0.075));
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 20%);
+    // background: linear-gradient(60deg,rgba(59, 11, 11, 0.493),rgba(0, 0, 0, 0.171),rgba(2, 0, 2, 0.075));
+
     z-index: -2;
 }
 .home::after{
@@ -16,9 +16,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#02457c60,#6808281e);
-    clip-path: polygon(30% 0%,60% 0%, 100% 40%, 50% 90%, 0% 10%);
-    // clip-path: polygon( 50% 100%, 0% 20%,50% 20%, 100% 20%);
+    background: linear-gradient(#02457c6b,#af003a0e);
+
     z-index: -1;
 }
 
@@ -37,7 +36,7 @@ span.changingText::before {
 span.changingText2::before {
     content: "";
     animation: animate2 infinite 10s;
-    padding-left: 7px;
+    padding-left: 3px;
     transition:all 2s ease-in-out;
 }
 
@@ -68,12 +67,17 @@ span.changingText2::before {
 
 @keyframes animate2 {
 
-
+    9%{
+        content: "";
+    }
     10%{
         content: "S";
     }
     12%{
-        content: "Sus ";
+        content: "Su";
+    }
+    13%{
+        content: "Sus";
     }
     14%{
         content: "Sush";
