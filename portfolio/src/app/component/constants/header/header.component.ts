@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+   shownav=true;
   constructor() { }
 
   ngOnInit(): void {
+  }
+  navToggle(){
+    if(this.shownav===true){
+      this.shownav=false
+    }else{
+      this.shownav=true
+    }console.log(this.shownav);
+    
   }
 }
