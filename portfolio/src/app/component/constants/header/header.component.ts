@@ -18,6 +18,6 @@ export class HeaderComponent implements OnInit {
     }else{
       this.shownav=true
     }console.log(this.shownav);
-    
   }
+
 }
