@@ -51,6 +51,7 @@ span.changingText::before {
 }
 span.changingText2::before {
     content: "";
+    font-size: larger;
     animation: animate2 infinite 10s;
     padding-left: 3px;
     transition:all 2s ease-in-out;
@@ -165,7 +166,7 @@ span.changingText2::before {
         content: "Des";
     }
     80% {
-        content: "Desi,";
+        content: "Desi";
     }
     81% {
         content: "Desig";
