@@ -27,9 +27,7 @@ h1 {
     justify-content: center;
     color: white;
 }
-p{
-    font-family: 'Robotomedi';
-}
+
 .title-font{
     font-family: 'Open Sans';
     font-style: bold;
@@ -37,8 +35,13 @@ p{
 .title-font:hover{
   font-style:underline ;
 }
-b{
-    color: rgba(152, 61, 212, 0.712);
+.highlighted{
+    // color: rgba(97, 56, 124, 0.795);
+    color: #510087cb;
+    font-family: "Roboto-boldi";
+}
+.typewriter{
+    font-family: "Roboto-boldi";
 }
 span.changingText::before {
     content: "";

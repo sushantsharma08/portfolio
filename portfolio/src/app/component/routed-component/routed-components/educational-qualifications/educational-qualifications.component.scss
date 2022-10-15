@@ -2,6 +2,7 @@ tr{
     border-bottom: 1px solid #0000001a;
     background-color: rgba(137, 43, 226, 0.082);
 }
+
 .educational::before{
     content: " ";
     position: fixed;
@@ -38,7 +39,20 @@ tr{
 .edutab{
     backdrop-filter: blur(6px);
 }
+thead{
+    font-family:'Open Sans';
+    font-size:14px
+}
+tbody{
+    font-family: 'Robotoreg';
+
+}
 .heading{
     background: rgba(255, 255, 255, 0.02) ;
     backdrop-filter: blur(6px);
+    font-family: 'Open Sansreg';
+    color: rgba(0, 0, 0, 0.733);
+}
+.pageHeading{
+    font-family: 'Robotomedi';
 }

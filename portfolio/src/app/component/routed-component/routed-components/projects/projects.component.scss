@@ -2,6 +2,9 @@
     // height: 100vh;
     position: relative;
 }
+.pageHeading{
+    font-family: 'Open Sans';
+}
 section.back{
     // border: 2px solid red;
     position: fixed;
@@ -11,7 +14,7 @@ section.back{
     // z-index: 0;s
     // position: relative;
     width: 100%;
-    background: linear-gradient(60deg,#30475ea9, #025ebb56 );
+    background: linear-gradient(30deg,#3e305ea9,#455075a9, #025ebb56 );
     // background: linear-gradient( rgba(70, 70, 70, 0.6), rgba(64, 64, 143, 0.700),rgba(136, 74, 136, 0.774) );  
      display: flex;
     flex-direction: column;
@@ -29,7 +32,7 @@ section .row{
     font-size: 60px;
     transform: rotate(-30deg);
 }
-i{
+i.background{
     color: rgba(46, 85, 88, 0.062);
     // font-size: large;
     transition: 3s;
@@ -37,7 +40,7 @@ i{
     user-select: none;
     cursor: default;
 }
-i:hover{
+i.background:hover{
     content: "";
     transition: 0s;
     color: rgba(80, 133, 155, 0.685);
