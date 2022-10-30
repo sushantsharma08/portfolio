@@ -66,3 +66,29 @@ a:hover{
         background-position: right;
     }
 }
+.tag{
+    font-family: 'Pacifico';
+    // background-image: linear-gradient(90deg,rgb(221, 0, 0),rgb(111, 0, 255));
+    background-clip: text;
+    color: transparent;
+    font-size: 28px;
+    transition: background-position 4s;
+    background-image: linear-gradient(90deg,
+     #a001df,#ce0592,
+     #d82952, #cf6e4b,
+     #f7a713, #1cda91,#1cda6b, #1cda91, #1c68da, #1c38da,);
+    //  #845ec2,
+    //  #d65db1,
+    //  #ff6f91,
+     background-size: 700%;
+     animation: text-animation 8s infinite alternate;
+}
+
+@keyframes text-animation {
+    0%{
+       background-position: left; 
+    }
+    100%{
+        background-position: right;
+    }
+}
