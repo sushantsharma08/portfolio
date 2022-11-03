@@ -1,3 +1,6 @@
+header{
+    background: linear-gradient(30deg,#6543720c,rgba(0, 0, 0, 0.055),rgba(124, 18, 124, 0.068)) ;
+}
 nav{
     font-family: 'Robotoreg';
     background-color: rgba(62, 72, 80, 0.075);
@@ -21,6 +24,9 @@ nav{
     transition: margin-bottom .9s;
     -webkit-transition: margin-bottom .9s;
     text-decoration: underline  rgba(71, 81, 95, 0.712);
+}
+.bi-list{
+    border: 2px solid rgba(70, 71, 71, 0.233);
 }
 a{  
     margin-top: 5px;
@@ -92,3 +98,19 @@ a:hover{
         background-position: right;
     }
 }
+@media only screen and (max-width: 1300px) {
+    .main{
+        flex-direction: column;
+    }
+    .navigationtab{
+        margin-top: 10px;
+        justify-content: flex-end;
+        position:relative;        
+    }
+    .button{
+        position: absolute;
+        right: 0;
+        z-index: 20;
+    }
+
+  }
