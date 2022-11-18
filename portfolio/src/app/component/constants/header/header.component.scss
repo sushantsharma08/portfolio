@@ -29,6 +29,7 @@ nav{
     border-left: 2px solid rgba(70, 71, 71, 0.233);
     border-right: 2px solid rgba(70, 71, 71, 0.233);
     border-radius: 10px;
+    display: none;
 }
 a{  
     margin-top: 5px;
@@ -112,8 +113,17 @@ a:hover{
     .button{
         position: absolute;
         right: 0;
-        top: -17px;
+        top: -40px;
         z-index: 20;
     }
+    .bi-list{
+        display: block;
 
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    nav{
+        position: relative;
+        top: 25px;
+    }
   }
