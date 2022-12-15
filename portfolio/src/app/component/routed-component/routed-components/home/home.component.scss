@@ -22,6 +22,10 @@
     z-index: -1;
 }
 
+.main-img{
+    -webkit-mask-image: linear-gradient(black,purple);
+}
+
 h1 {
     display: flex;
     justify-content: center;
