@@ -12,6 +12,9 @@ nav{
     z-index: 10;
     text-align: center;
 } 
+.header1:hover{
+    color: rgb(49, 48, 48);
+}
 .active{
     color: rgb(0, 0, 0);
     font-weight: 500;
@@ -25,12 +28,43 @@ nav{
     -webkit-transition: margin-bottom .9s;
     text-decoration: underline  rgba(71, 81, 95, 0.712);
 }
-.bi-list{
-    border-left: 2px solid rgba(70, 71, 71, 0.233);
-    border-right: 2px solid rgba(70, 71, 71, 0.233);
-    border-radius: 10px;
+.hamburger{
+    border: 2px solid rgba(49, 47, 47, 0.637);
+    border-radius: 3px;
     display: none;
 }
+.button .line{
+    fill:rgb(51, 48, 48)
+}
+.button .line{
+    transition:
+    y 300ms ease-in 300ms,
+    rotate 300ms ease-in,
+    opacity 0ms 300ms
+    ;
+    transform-origin: center;
+}
+.button:hover .line{
+    transition:
+    y 300ms ease-in,
+    rotate 300ms ease-in 300ms,
+    opacity 0ms 300ms
+    ;
+}
+.button:hover :is(.top,.bottom){
+    y:45
+}
+
+.button:hover .top{
+    rotate: 45deg;
+}
+.button:hover .middle{
+    opacity:0;
+}
+.button:hover .bottom{
+    rotate: -45deg;
+}
+
 a{  
     margin-top: 5px;
     margin-inline: 9px;
@@ -101,6 +135,8 @@ a:hover{
         background-position: right;
     }
 }
+
+
 @media only screen and (max-width: 1300px) {
     .main{
         flex-direction: column;
@@ -116,7 +152,7 @@ a:hover{
         top: -40px;
         z-index: 20;
     }
-    .bi-list{
+    .hamburger{
         display: block;
 
     }
