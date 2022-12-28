@@ -49,7 +49,7 @@ h1 {
 }
 span.changingText::before {
     content: "";
-    animation: animate 9s infinite;
+    animation: animate 7s infinite;
     padding-left: 7px;
     transition: all 2s ease-in-out;
     animation-delay: 1s;
@@ -57,7 +57,7 @@ span.changingText::before {
 span.changingText2::before {
     content: "";
     font-size: larger;
-    animation: animate2 9s infinite ;
+    animation: animate2 7s infinite ;
     padding-left: 3px;
     transition:all 2s ease-in-out;
     animation-delay: 1s;
@@ -272,9 +272,9 @@ span.changingText2::before {
   }  
 
   .slide-in-bottom {
-	-webkit-animation: slide-in-bottom 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-bottom 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation-delay: 1.2s;
+	-webkit-animation: slide-in-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: 1s;
 }
 @-webkit-keyframes slide-in-bottom {
     0% {
@@ -283,6 +283,10 @@ span.changingText2::before {
       -webkit-filter: blur(4px);
               filter: blur(4px);
       opacity: 0;
+    }
+    50%{
+        opacity: 20%;
+        
     }
     100% {
       -webkit-transform: translateY(0);
