@@ -253,3 +253,35 @@ a:hover {
     }
 }
 
+.blink-1 {
+    -webkit-animation: blink-1 4s ease-in-out infinite both;
+    animation: blink-1 4s ease-in-out infinite both;
+}
+
+@-webkit-keyframes blink-1 {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 10%;
+    }
+}
+
+@keyframes blink-1 {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 10%;
+    }
+}
