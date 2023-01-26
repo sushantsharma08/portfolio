@@ -74,8 +74,8 @@ input {
 
 
 .contact::after {
-    -webkit-animation: slit-in-diagonal-1 0.45s ease-out both;
-    animation: slit-in-diagonal-1 0.45s ease-out both;
+    -webkit-animation: slit-in-diagonal-1 0.9s ease-out both;
+    animation: slit-in-diagonal-1 0.9s ease-out both;
     animation-delay: 1s;
 }
 
@@ -131,8 +131,8 @@ input {
 }
 
 .contact::before {
-    -webkit-animation: slit-in-diagonal-2 0.45s ease-out both;
-    animation: slit-in-diagonal-2 0.45s ease-out both;
+    -webkit-animation: slit-in-diagonal-2 0.9s ease-out both;
+    animation: slit-in-diagonal-2 0.9s ease-out both;
     animation-delay: 700ms;
 }
 
