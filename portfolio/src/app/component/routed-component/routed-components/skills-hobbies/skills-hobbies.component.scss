@@ -93,6 +93,7 @@ li {
 .skills::before {
     -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    transform-origin:center;
 }
 
 @-webkit-keyframes scale-in-center {
