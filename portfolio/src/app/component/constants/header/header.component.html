@@ -1,41 +1,47 @@
 <header class="text-gray-600 body-font" class="aboutHeader">
-  <div class="container mx-auto flex flex-wrap p-5 md:flex-row items-center " style="margin-bottom: 78px;">
-    <div  class="main icon z-30 flex w-screen justify-between mb-6" >
-      <a routerLink="/home"
+  <div class="container mx-auto flex flex-wrap md:flex-row items-center py-5" style="margin-bottom: 78px;">
+    <div class="main icon z-30 flex w-screen justify-between ">
+      <div class="flex">
+            <!-- <img src="assets/Images/profile.png" class="w-24" alt=""> -->
+        <a routerLink="/home"
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <span class="ml-3 text-2xl opacity-80 tag focus-in-expand ">Sushant Sharma</span>
         </a>
+      </div>
 
-      <div class="flex navigationtab fade-in-left">
+      <div class="flex navigationtab fade-in-left items-center justify-center">
         <div class="nav">
           <nav *ngIf=shownav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <a class="header1 home " routerLink="/home" routerLinkActive="active blink-1" class="mr-5">About Me</a>
-            <a class="header1 educ" routerLink="/EducationalQualifications" routerLinkActive="active blink-1 " class="mr-5">Educational Qualifications</a>
-            <a class="header1 MyProjects" routerLink="/my-projects" routerLinkActive="active blink-1 " class="mr-5">My Projects</a>
+            <a class="header1 educ" routerLink="/EducationalQualifications" routerLinkActive="active blink-1 "
+              class="mr-5">Educational Qualifications</a>
+            <a class="header1 MyProjects" routerLink="/my-projects" routerLinkActive="active blink-1 " class="mr-5">My
+              Projects</a>
             <a class="header1 skill_hobbies" routerLink="skills&hobbies" routerLinkActive="active blink-1"
               class="mr-5">Skills & hobbies</a>
-            <a class="header1 Contact" routerLink="/my-contacts" routerLinkActive="active blink-1 " class="mr-5">Contact Me</a>
+            <a class="header1 Contact" routerLink="/my-contacts" routerLinkActive="active blink-1 " class="mr-5">Contact
+              Me</a>
           </nav>
         </div>
-        
-      <button class="button" aria-controls="navigationtab" aria-expanded="false">
-        <svg class="hamburger border" (click)="navToggle()" viewBox="0 0 100 100" width="30">
-          <rect class="top line" width="80" height="10" x="10" y="25" rx="5">
-          </rect>
-          <rect class="middle line" width="80" height="10" x="10" y="45" rx="5">
-          </rect>
-          <rect class="bottom line" width="80" height="10" x="10" y="65" rx="5">
-          </rect>
-        </svg>
+
+        <button class="button" aria-controls="navigationtab" aria-expanded="false">
+          <svg class="hamburger border" (click)="navToggle()" viewBox="0 0 100 100" width="30">
+            <rect class="top line" width="80" height="10" x="10" y="25" rx="5">
+            </rect>
+            <rect class="middle line" width="80" height="10" x="10" y="45" rx="5">
+            </rect>
+            <rect class="bottom line" width="80" height="10" x="10" y="65" rx="5">
+            </rect>
+          </svg>
 
 
-      </button>
+        </button>
       </div>
-       
-      
+
+
     </div>
 
 
   </div>
-  
+
 </header>

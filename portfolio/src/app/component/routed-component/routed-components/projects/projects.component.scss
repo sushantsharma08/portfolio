@@ -16,7 +16,7 @@ section.back {
     // z-index: 0;s
     // position: relative;
     width: 100%;
-    background: linear-gradient(30deg, #80244aa9, #3e305ea9, #455075a9, #025ebb56);
+    background: linear-gradient(30deg, #ff92bf, #af96e9, #82cbfca9, #60afff);
     // background: linear-gradient( rgba(70, 70, 70, 0.6), rgba(64, 64, 143, 0.700),rgba(136, 74, 136, 0.774) );  
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ section .row {
 }
 
 i.background {
-    color: rgba(46, 85, 88, 0.062);
+    color: rgba(49, 57, 57, 0.025);
     // font-size: large;
     transition: 3s;
     padding: 0 10px;
@@ -48,8 +48,8 @@ i.background {
 i.background:hover {
     content: "";
     transition: 0s;
-    color: rgba(100, 80, 155, 0.555);
-    text-shadow: 0 0 120px rgb(149, 75, 192);
+    color: rgb(41, 81, 112);
+    text-shadow: 0 0 120px rgb(23, 255, 73);
 }
 
 section .row div {
@@ -94,7 +94,7 @@ section .row div:nth-child(4) {
     }
 }
 
-.card {
+.card{
     z-index: 10;
     backdrop-filter: blur(2px);
     box-shadow: 0px 0px 11px 0px rgba(96, 15, 201, 0.473);
@@ -109,11 +109,12 @@ section .row div:nth-child(4) {
             #bd5f757a,
             #7a57b17a,
         );
+    // background: rgb(41, 81, 112);
     box-shadow: 0px 0px 21px 0px rgba(147, 31, 255, 0.603);
     opacity: 90%;
 
     .card-icon {
-        color: rgba(177, 94, 255, 0.603);
+        color: rgb(255, 255, 255);
     }
 
     a:hover {
@@ -155,7 +156,7 @@ hr {
 }
 
 .card-icon {
-    color: rgba(158, 132, 230, 0.986)
+    color: rgba(255, 255, 255, 0.986)
 }
 
 a {
