@@ -1,6 +1,6 @@
-tr{
-    border-bottom: 1px solid #0000001a;
-    background-color: rgba(137, 43, 226, 0.082);
+tbody tr{
+    border-bottom: 1px solid #d3bdd3;
+    background-color: rgb(236, 229, 252);
 }
 
 .educational::before{
@@ -45,7 +45,6 @@ thead{
 }
 tbody{
     font-family: 'Robotoreg';
-
 }
 .heading{
     background: rgba(255, 255, 255, 0.02) ;
