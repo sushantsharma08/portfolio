@@ -1,10 +1,7 @@
-header {
-    background: linear-gradient(30deg, #6543720c, rgba(0, 0, 0, 0.055), rgba(124, 18, 124, 0.068));
-}
 
 nav {
     font-family: 'Robotoreg';
-    background-color: rgba(62, 72, 80, 0.075);
+    background-color: rgba(197, 208, 217, 0.295);
     border-radius: 15px;
     font-size: x-large;
     padding-inline: 20px;
@@ -12,14 +9,15 @@ nav {
     backdrop-filter: blur(4px);
     z-index: 10;
     text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.172);
 }
 
 .header1:hover {
-    color: rgb(49, 48, 48);
+    color: rgb(249, 215, 215);
 }
 
 .active {
-    color: rgb(0, 0, 0);
+    color: rgb(178, 162, 255);
     font-weight: 500;
     margin-top: 2px;
     margin-bottom: 5px;
@@ -29,13 +27,13 @@ nav {
     -webkit-transition: margin-top .9s;
     transition: margin-bottom .9s;
     -webkit-transition: margin-bottom .9s;
-    text-decoration: underline rgba(71, 81, 95, 0.712);
 }
 
 .hamburger {
     border: 2px solid rgba(49, 47, 47, 0.637);
     border-radius: 3px;
     display: none;
+    margin-right: 20px;
 }
 
 .button .line {
@@ -57,10 +55,6 @@ nav {
         opacity 0ms 300ms;
 }
 
-.button:hover :is(.top, .bottom) {
-    y: 45
-}
-
 .button:hover .top {
     rotate: 45deg;
 }
@@ -76,7 +70,7 @@ nav {
 a {
     margin-top: 5px;
     margin-inline: 9px;
-    color: rgba(0, 0, 0, 0.507);
+    color: rgba(146, 160, 249, 0.507);
 }
 
 a:hover {

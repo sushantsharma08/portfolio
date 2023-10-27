@@ -1,16 +1,17 @@
+<section class="back"></section>
+
 <div class="contact">
     <div class=" px-20 mx-auto ">
-        <span class="EducationalQualification font-bold title-font text-4xl text-center text-gray-900 pageHeading "
+        <span class="EducationalQualification font-bold title-font text-6xl text-center text-gray-400 pageHeading "
         >
           <h1 style="white-space: nowrap;" class="text-pop-up-top"> Contact Me </h1>
         </span>
       </div>
     
-    
     <section class="text-gray-600 body-font relative slide-in-blurred-bottom">
 
         <div class="container px-5 py-24 mx-auto">
-            <div class="flex justify-center mb-6 text-gray-800">
+            <div class="flex justify-center mb-6 text-gray-400">
                 <span style="white-space: nowrap;font-family:Roboto-medium;">Appreciate my work? Leave a message ( ﾉ ﾟｰﾟ)ﾉ</span>
             </div>
             <div class="lg:w-1/2 md:w-2/3 mx-auto">
@@ -18,7 +19,7 @@
                 <form [formGroup]="contactForm"  class="flex flex-wrap -m-2" >
                     <div class="p-2 w-1/2">
                         <div class="relative">
-                            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                            <label for="name" class="leading-7 text-sm">Name</label>
                             <input  type="text" id="name" name="name" title="please enter your Name" pattern="[a-z A-Z]{3,}" required
                                 class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 formControlName="name">
@@ -27,7 +28,7 @@
                     </div>
                     <div class="p-2 w-1/2">
                         <div class="relative">
-                            <label  for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                            <label  for="email" class="leading-7 text-sm ">Email</label>
                             <input   title="please Enter a Valid email" 
                              type="email" id="email" name="email"
                               required  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
@@ -39,7 +40,7 @@
     
                     <div class="p-2 w-full">
                         <div class="relative">
-                            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                            <label for="message" class="leading-7 text-sm ">Message</label>
                             <textarea   id="message" name="message" required
                                 class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" formControlName="message"></textarea>
                         </div>
